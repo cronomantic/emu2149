@@ -81,6 +81,7 @@ extern "C"
   void PSG_setVolumeMode (PSG * psg, int type);
   uint32_t PSG_setMask (PSG *, uint32_t mask);
   uint32_t PSG_toggleMask (PSG *, uint32_t mask);
+  void PSG_update_output(PSG *psg);
     
 #ifdef __cplusplus
 }
